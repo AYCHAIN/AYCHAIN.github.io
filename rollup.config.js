@@ -6,12 +6,12 @@ import { terser } from 'rollup-plugin-terser';
 
 export default [
   {
-    input: 'src/blockcerts-verifier/index.js',
+    input: 'src/certsverifier/index.js',
     output: [
       {
         file: 'dist/main.js',
         format: 'iife',
-        name: 'BlockcertsVerifier'
+        name: 'AYCHAINCertsVerifier'
       }
     ],
     plugins: [
@@ -26,12 +26,12 @@ export default [
     ]
   },
   {
-    input: 'src/blockcerts-verifier/index.js',
+    input: 'src/certsverifier/index.js',
     output: [
       {
         file: 'dist/ie11.js',
         format: 'iife',
-        name: 'BlockcertsVerifier'
+        name: 'AychaincertsVerifier'
       }
     ],
     plugins: [
