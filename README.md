@@ -74,7 +74,7 @@ The component will understand the following options:
   Example:
   
   ```html
-  <blockcerts-verifier disable-verify></blockcerts-verifier>
+  <certsverifier disable-verify></certsverifier>
   ```
 - `display-mode`: (String, oneOf('card', 'full', 'fullscreen'). default: `card`). 
 Changes the display of a record. 
@@ -86,28 +86,28 @@ The certificate displays similar as `full`. NOTA: only works for certificates th
   Example:
   
   ```html
-  <blockcerts-verifier display-mode="full"></blockcerts-verifier>
+  <certsverifier display-mode="full"></certsverifier>
   ```
 - `show-metadata`: (Boolean. default: `false`). Enables showing the metadata of a record.  
   
   Example:
   
   ```html
-  <blockcerts-verifier show-metadata></blockcerts-verifier>
+  <certsverifier show-metadata></certsverifier>
   ```
 - `src`: (String. default: `''`). Allows loading an initial record with no further actions required. `src` can be either an absolute URL, or a relative path.  
   
   Example:
   
   ```html
-  <blockcerts-verifier src='../fixtures/valid-certificate-example.json'></blockcerts-verifier>
+  <certsverifier src='../fixtures/valid-certificate-example.json'></certsverifier>
   ```
 - `theme`: (String. default: `'bright'`). Adapts to the background of the page that hosts the component. If the component is displayed on a dark background, you should use the `dark` option. If it's bright, then use the `bright` option.  
   
   Example:
   
   ```html
-  <blockcerts-verifier theme='dark'></blockcerts-verifier>
+  <certsverifier theme='dark'></certsverifier>
   ```
   
 - locale: (String. defaults to: `'auto'`, if language code not recognized will default to English (`en`)). View `src/i18n/lang` to see the list of supported languages. Contributions welcome.
@@ -115,14 +115,14 @@ The certificate displays similar as `full`. NOTA: only works for certificates th
   Example:
   
   ```html
-  <blockcerts-verifier locale='fr'></blockcerts-verifier>
+  <certsverifier locale='fr'></certsverifier>
   ``` 
   
 ## Event Tracking API
 The component will emit events on different moment of the certificate life cycle.
 To subscribe and track these events you should add on your consumer page event listeners on the `window` object.
 
-See the [event demo page](https://github.com/blockchain-certificates/blockcerts-verifier/blob/master/demo/events.html) for a working example.
+See the [event page](https://github.com/aychain/certsverifier/) for a working example.
 
 The information is communicated via the `detail` key of the event.
 
@@ -205,7 +205,7 @@ npm run test:components
 ```
 npm run test:components:persist
 ```
-Will allow refreshing the test page: http://localhost:8000/components/blockcerts-verifier/generated-index.html?cli_browser_id=0
+Will allow refreshing the test page: http://localhost:8000/components/certsverifier/generated-index.html?cli_browser_id=0
 
 ## Dealing with CSS
 The `npm run start` command will also start a SASS compiler watcher, which means that any stylesheet within the `components` folder will be transpiled to a polymer component that can be reused within another component. ie:
