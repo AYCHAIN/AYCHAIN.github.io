@@ -8,7 +8,7 @@ export default {
     {
       file: 'sanitizer/sanitizer.js',
       format: 'es',
-      banner: '/**\n * @warning\n *\n * THIS IS AN AUTO GENERATED FILE. IF YOU WISH TO WHITELIST PROPERTIES / TAGS, PLEASE DO IT SO IN sanitizer/index.js \n *\n * More Information: https://github.com/blockchain-certificates/blockcerts-verifier#modifying-the-sanitizer\n **/\n'
+      banner: '/**\n * @warning\n *\n * THIS IS AN AUTO GENERATED FILE. IF YOU WISH TO WHITELIST PROPERTIES / TAGS, PLEASE DO IT SO IN sanitizer/index.js \n *\n * More Information: https://github.com/aychain/certsverifier#modifying-the-sanitizer\n **/\n'
     }
   ],
   plugins: [
