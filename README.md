@@ -1,7 +1,7 @@
 # AYCHAINcertsverifier
 
-[![Build Status](https://travis-ci.com/blockchain-certificates/blockcerts-verifier.svg?branch=master)](https://travis-ci.com/blockchain-certificates/blockcerts-verifier)
-[![codecov](https://codecov.io/gh/blockchain-certificates/blockcerts-verifier/branch/master/graph/badge.svg)](https://codecov.io/gh/blockchain-certificates/blockcerts-verifier)
+[![Build Status](https://travis-ci.com/aychain-certificates/certsverifier.svg?branch=master)](https://travis-ci.com/blockchain-certificates/certsverifier)
+[![codecov](https://codecov.io/gh/aychain-certificates/certsverifier/branch/master/graph/badge.svg)](https://codecov.io/gh/blockchain-certificates/certsverifier)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 A standalone universal viewer &amp; verifier for blockcerts credentials
@@ -17,9 +17,9 @@ To use the component in your project, install it via:
 If your project **does not require support for IE11**, you can use the following build:
 
 ```html
-  <script src="node_modules/@blockcerts/blockcerts-verifier/dist/main.js"></script>
+  <script src="node_modules/@aychain/certsverifier/dist/main.js"></script>
 
-  <blockcerts-verifier></blockcerts-verifier>
+  <certsverifier></certsverifier>
 ```
 Chrome will support natively the code, but for Firefox, Safari, MS Edge (Opera and Brave), you will need to add the webcomponent loader before:
 
@@ -35,7 +35,7 @@ If your project **requires support for IE11**, you will need to use the ie11 bui
 ```
 Please note that because this is transpiled to ES5, the custom-elements-es5-adapter code is required for it to work properly in more modern browsers.
 
-Have a look at the [Demo Pages](/demo) to see examples of the usage
+Have a look at the [Pages](/aychain) to see examples of the usage
 
 ## API Usage
 
@@ -53,21 +53,21 @@ The component will understand the following options:
    Example:
    
    ```html
-   <blockcerts-verifier allow-download></blockcerts-verifier>
+   <certsverifier allow-download></certsverifier>
    ```
 - `allow-social-share`: (Boolean. default: `false`). Allows sharing the record on the social networks (LinkedIn, Facebook and Twitter). 
    
    Example:
    
    ```html
-   <blockcerts-verifier allow-social-share></blockcerts-verifier>
+   <certsverifier allow-social-share></certsverifier>
    ```
 - `disable-auto-verify`: (Boolean. default: `false`). Disables starting automatically the verification sequence as the record is loaded. 
    
    Example:
    
    ```html
-   <blockcerts-verifier disable-auto-verify></blockcerts-verifier>
+   <certsverifier disable-auto-verify></certsverifier>
    ```
 - `disable-verify`: (Boolean. default: `false`). Disables verification of the record altogether. 
   
