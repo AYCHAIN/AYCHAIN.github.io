@@ -1,4 +1,4 @@
-# \<blockcerts-verifier\>
+# AYCHAINcertsverifier
 
 [![Build Status](https://travis-ci.com/blockchain-certificates/blockcerts-verifier.svg?branch=master)](https://travis-ci.com/blockchain-certificates/blockcerts-verifier)
 [![codecov](https://codecov.io/gh/blockchain-certificates/blockcerts-verifier/branch/master/graph/badge.svg)](https://codecov.io/gh/blockchain-certificates/blockcerts-verifier)
@@ -11,7 +11,7 @@ The component is developed with Polymer 3.
 To use the component in your project, install it via:
 
 ```
-  npm i @blockcerts/blockcerts-verifier
+  npm i @bcertsverifier/certsverifier
 ```
 
 If your project **does not require support for IE11**, you can use the following build:
